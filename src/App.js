@@ -46,10 +46,14 @@ function App() {
         setStartOrPause(startOrPause => 'Start')
         clearInterval(timerId)
     }
+
     return (
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
+                <div className="name-container">
+                    S Alireza Ezaz  9731009
+                </div>
                 <div className="counter-container">
                     Counter: {counter}
                 </div>
