@@ -43,6 +43,8 @@ function App() {
             setDownOrUpCounting(i => 'Down Counting')
             downOrUpCounting = 'Down Counting'
         }
+        setStartOrPause(startOrPause => 'Start')
+        clearInterval(timerId)
     }
     return (
         <div className="App">
