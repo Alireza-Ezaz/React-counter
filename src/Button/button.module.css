@@ -1,0 +1,18 @@
+.buttonContainer {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: deepskyblue;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-inline-end: 20px;
+    cursor: pointer;
+    transition: all 0.33s;
+}
+.buttonContainer:hover{
+    background-color: darkcyan;
+}
